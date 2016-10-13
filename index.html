@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css"
+			  href="map.css">
+			 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJ7Ldpo4m_QbYQZV0WU6vGwNKRHknkOM4&callback=myMap"async defer></script>	
+<script>
+function myMap() {
+  var myCenter = new google.maps.LatLng(ç);
+  var mapCanvas = document.getElementById("map");
+  var mapOptions = {
+     center: new google.maps.LatLng(38.6828062,19.317119),  
+     zoom: 2
+  };
+  var map = new google.maps.Map(mapCanvas, mapOptions);
+  var marker = new google.maps.Marker({position:myCenter});
+  marker.setMap(map);
+  var pariiiiis = new google.maps.LatLng(48.8587745,2.207819);
+  var marker5 = new google.maps.Marker({position:pariiiiis});
+  marker5.setMap(map);
+
+}
+
+ google.maps.event.addDomListener(window, 'load', myMap);
+</script>
+</head>
+<body>
+	<!-- BEGIN NAVIGATION BAR-->
+		<ul id="navbar">
+		<li class="navlist-item"><a href="index.html">home </a></li>
+			 	<li class="navlist-item"><a href="mapmap.html">thailand </a></li>
+			 	<li class="navlist-item"><a href="amfilochia.html">amfilochia </a></li>
+			 	<li class="navlist-item"><a href="rome.html">rome </a></li>
+			 	<li class="navlist-item"><a href="borabora.html">bora bora </a></li>
+			 	<li class="navlist-item"><a href="thailand.html">thailand</a></li>
+			 	<li class="navlist-item"><a href="pariiiiis.html">pariiiiis </a></li>
+			 </div></li>
+  		</ul>
+	<!-- END NAVIGATION BAR-->
+		<div id="map" style="width:100%;height:500px"></div>
+</body>
+<h1>Paris<h1>
+<p>Paris is the capital and most popular city of France,containing 18.2 percent of the 
+population of France. Paris was founded in the 3rd century BC.</p>
+</html>
